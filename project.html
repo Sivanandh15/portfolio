@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Sivanandh Portfolio</title>
+    <link href="src/output.css" rel="stylesheet">
+    <style>
+        *{
+            scroll-behavior: smooth;
+            scroll-padding-top: 4em;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAV STARTS -->
+    <div>
+        <ul id="nav-icon" class="fixed z-9 left-0 top-16 w-full text-center py-3 hidden backdrop-blur-sm bg-white/30 p-6  md:hidden">
+            <li class="p-1.5 hover:underline underline-offset-6"><a href="index.html#header">About</a></li>
+            <li class="p-1.5 hover:underline underline-offset-6"><a href="index.html#skillsec">Skills</a></li>
+            <li class="p-1.5 hover:underline underline-offset-6"><a href="project.html">Project</a></li>
+            <li class="p-1.5 hover:underline underline-offset-6"><a href="index.html#contact">Contact</a></li>
+            <li class="p-1.5 hover:underline underline-offset-6"><a href="src/Sivanandh_frontend.pdf"><button class="px-4 py-1 rounded-3xl bg-green-200 hover:cursor-pointer">Resume</button></a></li>
+        </ul>
+    </div>
+    <nav class="z-9 flex justify-between p-5 px-5 md:px-15 items-center bg-white border-b-2 border-green-300" style="font-family: 'Times New Roman', Times, serif; position:sticky; top:0;">
+        <div><h3 class="text-2xl">Portfolio</h3></div>
+        <div>
+            <ul class="hidden md:flex">
+                <li class="px-5 hover:underline underline-offset-6 flex items-center"><a href="index.html#header">About</a></li>
+                <li class="px-5 hover:underline underline-offset-6 flex items-center"><a href="index.html#skillsec">Skills</a></li>
+                <li class="px-5 hover:underline underline-offset-6 flex items-center"><a href="project.html">Project</a></li>
+                <li class="px-5 hover:underline underline-offset-6 flex items-center"><a href="index.html#contact">Contact</a></li>
+                <li class="px-5 hover:underline underline-offset-6 flex items-center"><a href="src/Sivanandh_frontend.pdf"><button class="px-4 py-1 rounded-3xl bg-green-200 hover:cursor-pointer">Resume</button></a></li>
+            </ul>
+        </div>
+        <div id="nav-btn" class="md:hidden"><img class="h-10 w-10" src="src/img/burger-menu-svgrepo-com.png" alt="burger-menu"></div>
+    </nav>
+    <!-- NAV ENDS -->
+
+    <!-- PROJECTS PAGE HEADER -->
+    <header class="py-16 bg-gradient-to-r from-green-100 to-gray-100 text-center">
+        <h1 class="text-6xl font-bold mb-4" style="font-family: 'Times New Roman', Times, serif;">My <span class="text-green-400">Projects</span></h1>
+        <p class="text-lg text-gray-700 max-w-2xl mx-auto">A showcase of my latest work, including web applications, e-commerce sites, and more. Each project demonstrates my skills in frontend development, UI/UX, and modern web technologies.</p>
+    </header>
+
+    <!-- PROJECTS LIST -->
+    <main class="min-h-screen flex flex-col items-center justify-center bg-gray-50 py-10">
+        <!-- Project 1 -->
+        <div class="w-[90%] md:w-[70%] justify-self-center p-5 md:py-20 m-3 text-start rounded-3xl bg-gradient-to-r from-green-100 to-gray-100 flex-wrap shadow-lg">
+            <div class="flex flex-wrap md:flex-nowrap gap-6">
+                <div class="w-full md:w-[50%] flex items-center justify-center">
+                    <a href="https://foodtruck-sivanandh.netlify.app/" target="_blank" rel="noopener">
+                        <img src="src/img/foodtruck.png" alt="Food Truck Website" class="rounded-xl shadow-md" height="auto" width="auto">
+                    </a>
+                </div>
+                <div class="w-full md:w-[50%] flex flex-col justify-center">
+                    <h2 class="text-4xl font-semibold mb-2">Food Truck Website</h2>
+                    <p class="mb-3">Developed a responsive website for a local food truck business using Tailwind CSS, showcasing their menu and contact details. Designed for mobile users and deployed on Netlify for easy access.</p>
+                    <div class="mt-2 mb-3">
+                        <p class="font-bold">Tech Stack Used:</p>
+                        <button class="p-1 m-1 bg-gray-200 rounded-2xl">HTML</button>
+                        <button class="p-1 m-1 bg-gray-200 rounded-2xl">CSS</button>
+                        <button class="p-1 m-1 bg-gray-200 rounded-2xl">JavaScript</button>
+                    </div>
+                    <a href="https://foodtruck-sivanandh.netlify.app/" target="_blank" rel="noopener">
+                        <button class="p-2 bg-green-500 text-white cursor-pointer my-2 rounded-[8px] hover:bg-green-600 transition">View Website</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="w-[90%] md:w-[70%] justify-self-center p-5 md:py-20 m-3 text-start rounded-3xl bg-gradient-to-r from-gray-100 to-green-100 flex-wrap shadow-lg">
+            <div class="flex flex-wrap md:flex-nowrap gap-6">
+                <div class="w-full md:w-[50%] flex items-center justify-center">
+                    <a href="https://s2ksewing-testing.netlify.app/" target="_blank" rel="noopener">
+                        <img src="src/img/s2k.png" alt="E-Commerce Website" class="rounded-xl shadow-md" height="auto" width="auto">
+                    </a>
+                </div>
+                <div class="w-full md:w-[50%] flex flex-col justify-center">
+                    <h2 class="text-4xl font-semibold mb-2">E-Commerce Website</h2>
+                    <p class="mb-3">A full-featured E-commerce website for a clothing brand with an admin panel for CRUD functionalities. Designed and developed from scratch, utilizing AI tools to boost productivity. Includes responsive design and seamless user experience.</p>
+                    <div class="mt-2 mb-3">
+                        <p class="font-bold">Tech Stack Used:</p>
+                        <button class="p-2 m-1 bg-gray-200 rounded-2xl">HTML</button>
+                        <button class="p-2 m-1 bg-gray-200 rounded-2xl">CSS</button>
+                        <button class="p-2 m-1 bg-gray-200 rounded-2xl">JavaScript</button>
+                        <button class="p-2 m-1 bg-gray-200 rounded-2xl">Tailwind</button>
+                        <button class="p-2 m-1 bg-gray-200 rounded-2xl">Google Sheets (Database)</button>
+                    </div>
+                    <a href="https://s2ksewing-testing.netlify.app/" target="_blank" rel="noopener">
+                        <button class="p-2 bg-green-500 text-white cursor-pointer my-2 rounded-[8px] hover:bg-green-600 transition">View Website</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more projects below as needed -->
+        <!-- Example Project 3 (Template) -->
+        <!--
+        <div class="w-[90%] md:w-[70%] justify-self-center p-5 md:py-20 m-3 text-start rounded-3xl bg-gradient-to-r from-green-50 to-gray-50 flex-wrap shadow-lg">
+            <div class="flex flex-wrap md:flex-nowrap gap-6">
+                <div class="w-full md:w-[50%] flex items-center justify-center">
+                    <a href="#" target="_blank" rel="noopener">
+                        <img src="src/img/yourproject.png" alt="Project Name" class="rounded-xl shadow-md" height="auto" width="auto">
+                    </a>
+                </div>
+                <div class="w-full md:w-[50%] flex flex-col justify-center">
+                    <h2 class="text-4xl font-semibold mb-2">Project Name</h2>
+                    <p class="mb-3">Project description goes here.</p>
+                    <div class="mt-2 mb-3">
+                        <p class="font-bold">Tech Stack Used:</p>
+                        <button class="p-2 m-1 bg-gray-200 rounded-2xl">HTML</button>
+                        <button class="p-2 m-1 bg-gray-200 rounded-2xl">CSS</button>
+                        <button class="p-2 m-1 bg-gray-200 rounded-2xl">JavaScript</button>
+                    </div>
+                    <a href="#" target="_blank" rel="noopener">
+                        <button class="p-2 bg-green-500 text-white cursor-pointer my-2 rounded-[8px] hover:bg-green-600 transition">View Website</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        -->
+    </main>
+
+    <!-- FOOTER STARTS -->
+    <footer class="bg-gray-900 text-white py-12 text-start md:text-center">
+        <div class="container mx-auto p-4">
+            <div class="grid grid-cols-1 md:grid-cols-3">
+                <div class="m-4 md:m-4 md:text-start">
+                    <h3 class="font-bold text-2xl md:text-2xl">Sivanandh</h3>
+                    <p class="mt-2">Frontend Developer passionate about creating beautiful and functional web experiences.</p>
+                </div>
+                <div class="text-start md:text-center m-4 md:m-0">
+                    <h2 class="font-semibold text-xl mb-4">Quick Links</h2>
+                    <ul class="space-y-3">
+                        <li class="hover:translate-y-[-5px] transition-all duration-300"><a href="index.html#header">About</a></li>
+                        <li class="hover:translate-y-[-5px] transition-all duration-300"><a href="index.html#skillsec">Skills</a></li>
+                        <li class="hover:translate-y-[-5px] transition-all duration-300"><a href="project.html">Project</a></li>
+                        <li class="hover:translate-y-[-5px] transition-all duration-300"><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Contact info -->
+                <div class="text-start m-4 md:m-0 md:text-right">
+                    <h4 class="text-xl font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2">
+                        <p>Sivanandh15e04@gmail.com</p>
+                        <p>+91 63806 60344</p>
+                        <p>Coimbatore, Tamil Nadu, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-500 mt-8 pt-8 text-center">
+                <p class="text-gray-400">
+                    ©2024 Sivanandh. All rights reserved. Built with HTML, Tailwind and JavaScript
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <script>
+        const navicons = document.getElementById("nav-icon");
+        const navbtn = document.getElementById("nav-btn");
+      
+        // Toggle nav menu on button click
+        navbtn.addEventListener("click", () => {
+          navicons.classList.toggle("hidden");
+        });
+      
+        // Close menu on link click
+        const navLinks = navicons.querySelectorAll("a");
+        navLinks.forEach(link => {
+          link.addEventListener("click", () => {
+            navicons.classList.add("hidden");
+          });
+        });
+      
+        // Hide menu on scroll
+        window.addEventListener("scroll", () => {
+          navicons.classList.add("hidden");
+        });
+    </script>
+</body>
+</html>
